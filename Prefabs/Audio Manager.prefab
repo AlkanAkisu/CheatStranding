@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4347734157957405724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4347734157957405726}
+  - component: {fileID: 4347734157957405727}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4347734157957405726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4347734157957405724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.661742, y: 9.545312, z: -8.2235155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4347734157957405727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4347734157957405724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92a4243e31c30471e8ac22aba5e4eed9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Player Shoot
+    clip: {fileID: 8300000, guid: a1029099dc0da894e8c853f9026f5e26, type: 3}
+    source: {fileID: 0}
+    volume: 0.2
+    pitch: 1
+  - name: Enemy Death
+    clip: {fileID: 8300000, guid: bf4462d71ac3e454d946405e74fa6b08, type: 3}
+    source: {fileID: 0}
+    volume: 0.132
+    pitch: 0.89
+  - name: Enemy Shoot
+    clip: {fileID: 8300000, guid: 05a32dc038ef7b0459f10d2b61ac5183, type: 3}
+    source: {fileID: 0}
+    volume: 0.244
+    pitch: 1
+  - name: Player Death
+    clip: {fileID: 8300000, guid: b1da488b12eaf334bb296534f6a600d1, type: 3}
+    source: {fileID: 0}
+    volume: 0.705
+    pitch: 1.01
+  - name: Flying Enemy Shoot
+    clip: {fileID: 8300000, guid: 8bd98f8d6a28baf4290986e0786f93ba, type: 3}
+    source: {fileID: 0}
+    volume: 0.4
+    pitch: 1
+  - name: Jump
+    clip: {fileID: 8300000, guid: cd7faa937a0b1ec4ea19a6e0a6bda941, type: 3}
+    source: {fileID: 0}
+    volume: 0.6
+    pitch: 1
+  - name: Shield Break
+    clip: {fileID: 8300000, guid: 52c0cad04b904054eb697ef1a070372f, type: 3}
+    source: {fileID: 0}
+    volume: 0.557
+    pitch: 1.07
+  - name: Rushing Explode
+    clip: {fileID: 8300000, guid: 29bd37984d02e1c4e987cda2ee5e20d3, type: 3}
+    source: {fileID: 0}
+    volume: 0.516
+    pitch: 1
+  - name: Cheat Acquired
+    clip: {fileID: 8300000, guid: b595c4477a1fe4d3c849ba26d24ba023, type: 3}
+    source: {fileID: 0}
+    volume: 0.05
+    pitch: 1
+  index: 8

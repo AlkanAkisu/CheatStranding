@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9135100337356701990
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9135100337356701987}
+  - component: {fileID: 9135100337356701984}
+  - component: {fileID: 9135100337356701985}
+  - component: {fileID: 8395806929323775035}
+  - component: {fileID: 44675787775588708}
+  m_Layer: 0
+  m_Name: Managers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9135100337356701987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135100337356701990}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.061809, y: 10.219543, z: -25.479925}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9135100337356701984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135100337356701990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbc3064263314435298874c4b8e28fed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &9135100337356701985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135100337356701990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9abef5dbf82341c3ad088a5c42193ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rapidFireHack:
+    cooldown: 15
+    effectTime: 10
+    name: Rapid Fire
+    fireDelay: {fileID: 11400000, guid: 00fc74bb89e314f6fbfdd14c97816593, type: 2}
+    factor: 2
+  flyingHack:
+    cooldown: 10
+    effectTime: 15
+    name: Flying
+    isFlying: {fileID: 11400000, guid: 01c3ffecdb4a94a06b28dd4f17187465, type: 2}
+  killEveryboyHack:
+    cooldown: 100
+    effectTime: 1
+    name: Kill Everybody
+    chTr: {fileID: 11400000, guid: 841f71b3e80f84193972fa65d92ef959, type: 2}
+  slowDownHack:
+    cooldown: 10
+    effectTime: 3
+    name: Slow Down
+    slowWalkSpeed: 40
+  chTransform: {fileID: 11400000, guid: 841f71b3e80f84193972fa65d92ef959, type: 2}
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 512
+--- !u!114 &8395806929323775035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135100337356701990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2658564bda504ab28ee6bb191f48f13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialTransform: {fileID: 0}
+  chTransform: {fileID: 11400000, guid: 841f71b3e80f84193972fa65d92ef959, type: 2}
+--- !u!114 &44675787775588708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9135100337356701990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e79b6814dc93e4e0e9078655051a038f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGameFinished: {fileID: 11400000, guid: fe58382d0f1a04407a24c4d9b04b6a94, type: 2}
