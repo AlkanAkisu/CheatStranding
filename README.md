@@ -1,6 +1,7 @@
 # Cheat Stranding
 
 ## 🎮 What is "Cheat Stranding"?
+<img src="https://img.itch.zone/aW1nLzUyMTE4NjMucG5n/315x250%23c/EnES5k.png">
 <p>This game made for Atom Game Jam 2 with a theme <b>You must cheat to win </b </p>
 <p>We made a 2D action platformer game with a metroidvania style. You face obstacle in your way but also you encounter with some power stones that will give you the cheat codes you can type in the cheat panel to activate it. This way you can pass the obstacles in your way</p>
 <p>As a player you should overcome this obstacles with using cheat codes</p>
